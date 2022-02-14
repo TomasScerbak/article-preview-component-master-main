@@ -6,6 +6,7 @@ body {
   line-height: 1.5;
   font-size: 1.3rem;
   font-family: var(--ff-monrope);
+  height: 100vh;
 }
 *,
 *::before,
@@ -20,7 +21,95 @@ body {
 
   --ff-monrope: "Manrope", sans-serif;
 }
-
+h1 {
+  font-size: 1.6rem;
+  color: var(--very-dark-grayish-blue);
+}
+h3 {
+  font-size: 1.3rem;
+  margin: 0;
+  color: var(--very-dark-grayish-blue);
+}
+p {
+  color: var(--desaturated-dark-blue);
+  margin: 0;
+}
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+/* Images */
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+/* Body Container */
+.body-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Card */
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card-body {
+  margin: 3.6rem 3.2rem 2rem 3.2rem;
+}
+.author__image {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+}
+.year {
+  color: var(--grayish-blue);
+}
+.icon__radius {
+  border-radius: 100%;
+  background-color: var(--light-grayish-blue);
+  width: 3.7rem;
+  height: 3.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.share__icon {
+  width: 1.5rem;
+  height: 1.3rem;
+  cursor: pointer;
+}
+.active {
+  color: var(--light-grayish-blue);
+}
+.author__info {
+  margin-right: 5rem;
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+}
+@media screen and (min-width: 700px) {
+  .card {
+    flex-direction: row;
+    width: 73rem;
+  }
+  .author__info {
+    margin-right: 14rem;
+  }
+  .card-image {
+    flex: auto;
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;
