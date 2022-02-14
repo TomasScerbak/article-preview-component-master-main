@@ -85,9 +85,6 @@ img {
   height: 1.3rem;
   cursor: pointer;
 }
-.active {
-  color: var(--light-grayish-blue);
-}
 .author__info {
   margin-right: 5rem;
 }
@@ -96,6 +93,9 @@ img {
   align-items: center;
   justify-content: space-between;
   margin-top: 3.2rem;
+}
+.is-hidden {
+  display: none;
 }
 @media screen and (min-width: 700px) {
   .card {
