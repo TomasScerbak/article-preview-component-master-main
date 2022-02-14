@@ -42,7 +42,6 @@ p {
 /* Images */
 img {
   width: 100%;
-  height: auto;
   object-fit: cover;
 }
 /* Body Container */
@@ -106,8 +105,11 @@ img {
   .author__info {
     margin-right: 14rem;
   }
-  .card-image {
-    flex: auto;
+  .card-image > img {
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 28rem;
   }
 }
 .attribution {
