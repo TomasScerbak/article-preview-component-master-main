@@ -61,6 +61,7 @@ img {
   overflow: hidden;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   position: relative;
+  background-color: #fff;
 }
 .card-body {
   margin: 3.6rem 3.2rem 2rem 3.2rem;
