@@ -129,6 +129,9 @@ img {
     flex-direction: row;
     width: 73rem;
   }
+  .card-body {
+    margin: 3.6rem 5rem 2rem 3.2rem;
+  }
   .author__info {
     margin-right: 14rem;
   }
