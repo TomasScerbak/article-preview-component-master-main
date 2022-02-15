@@ -92,7 +92,31 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 3.2rem;
+  margin: 3.2rem 3.2rem 2rem 3.2rem;
+}
+.footer--mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--very-dark-grayish-blue);
+  padding: 1rem;
+  margin-top: 3.5rem;
+}
+.share {
+  letter-spacing: 5px;
+  color: var(--grayish-blue);
+  margin: 0 3rem;
+}
+.media-links {
+  margin-right: 6rem;
+}
+.facebook,
+.twitter,
+.pinterest {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
 }
 .is-hidden {
   display: none;
@@ -112,6 +136,8 @@ img {
     width: 28rem;
   }
 }
+
+/* Footer */
 .attribution {
   font-size: 11px;
   text-align: center;
